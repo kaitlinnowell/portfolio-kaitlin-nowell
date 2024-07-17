@@ -49,6 +49,10 @@ header nav ul li {
 }
 
 a {
+  text-decoration: none;
+}
+
+header nav a {
   color: var(--white);
   text-decoration: none;
 }
@@ -110,6 +114,7 @@ a {
   flex: 0 0 300px;
   box-shadow: 10px 10px 5px #aaaaaa;
   margin: 20px;
+  cursor: pointer;
 }
 
 .card label {
@@ -124,6 +129,7 @@ a {
   display: inline-block;
   width: 100%;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .card img {
@@ -141,6 +147,15 @@ a {
 /* Paragraph Styling*/
 p {
   font-size: 16px;
+}
+
+.resume {
+  color: #000;
+  margin-left: 50px;
+}
+
+.contact {
+  margin-left: 50px;
 }
 
 /* Styling for the footer*/
